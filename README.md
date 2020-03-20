@@ -11,14 +11,14 @@ Config a proxy, e.g. Web Browser proxy or mobile Wi-Fi proxy, the traffic (inclu
 # Design
 ![NagaScan](http://avfisher.win/wp-content/uploads/2017/03/20170313112539_66270.png)
 
-mitmdump在python3 下执行
-nagascan在python2 下执行
+* mitmdump在python3 下执行
+* nagascan在python2 下执行
 
 
 # Requirements
 ## Web Console
-pyenv install 2.7.5 -v
-pyenv global 2.7.5
+* pyenv install 2.7.5 -v
+* pyenv global 2.7.5
 * sudo pip install mysql-connector
 * sudo pip install jinja2
 * sudo pip install bleach
