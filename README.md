@@ -15,6 +15,16 @@ Config a proxy, e.g. Web Browser proxy or mobile Wi-Fi proxy, the traffic (inclu
 * nagascan在python2 下执行
 
 
+* git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+* echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+* echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+* echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
+* source ~/.bashrc
+
+* pyenv rehash
+* pyenv versions
+
+
 # Requirements
 ## Web Console
 * pyenv install 2.7.5 -v
@@ -24,8 +34,8 @@ Config a proxy, e.g. Web Browser proxy or mobile Wi-Fi proxy, the traffic (inclu
 * sudo pip install bleach
 
 ## Scanner
-pyenv install 3.6.2 -v
-pyenv global 3.6.2
+* pyenv install 3.6.2 -v
+* pyenv global 3.6.2
 * sudo apt-get install python-pip python-dev libmysqlclient-dev
 * sudo pip install requests
 * sudo pip install MySQL-python
