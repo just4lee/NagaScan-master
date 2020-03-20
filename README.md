@@ -21,9 +21,10 @@ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
 source ~/.bashrc
 ```
-*pyenv rehash
-*pyenv versions
-
+```
+pyenv rehash
+pyenv versions
+```
 
 # Requirements
 ## Web Console
